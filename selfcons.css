@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Krona-One';
+    src: url('KronaOne-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: 'Krona-one', sans-serif;
+    color: white;
+
+    background: linear-gradient(to bottom, #63a3f7, #35519e, #231a59);
+    min-height: 100vh;
+    position: relative;
+}
+header {
+    background-color: white;
+    height: 60px;
+    padding: 0 50px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 45px;
+    height: 22px;
+    background-color: #212066;
+    border-radius: 20px;
+}
+
+
+nav a {
+    color: #212066;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+nav a:hover {
+    opacity: 0.7; 
+}
+.hero {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
